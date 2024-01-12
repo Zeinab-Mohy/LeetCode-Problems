@@ -10,8 +10,6 @@ var halvesAreAlike = function(s) {
         if(a[i]=='a'||a[i]=='e'||a[i]== 'i'||a[i]== 'o'||a[i]=='u'){
             ac++;
         }
-    }
-    for(let i=0;i<b.length;i++){
         if(b[i]=='a'||b[i]=='e'||b[i]== 'i'||b[i]== 'o'||b[i]=='u'){
             bc++;
         }
