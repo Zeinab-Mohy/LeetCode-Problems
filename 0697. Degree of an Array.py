@@ -22,4 +22,5 @@ class Solution:
         for i in val:
             if len(i)==m:
                 res.append(abs(i[0]-i[len(i)-1])+1)
+                
         return min(res)
